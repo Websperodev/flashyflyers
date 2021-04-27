@@ -1,0 +1,39 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+.footer-lists .nav-link {
+    padding: 0 !important;
+}
+
+.blog-post-content br {display: none !important;}
+.blog-post-content p {margin-bottom: 1rem !important;}
+.blog-post-content h1 {font-size:22px !important;}
+.blog-post-content > p {
+   
+}
+.blog-post-content > p span {padding-right: 5px;}
+.row .post-item br {display: none !important;}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {top: 0pt !important;}
+.wpcf7-response-output.wpcf7-validation-errors {top: 0pt !important;}
+div.wpcf7-response-output{display:inline-block;}
+.navbar-brand {
+    max-width: 416px !important;
+}
+.divpost53 .post-item p.theContent {min-height: 124px !important;}
+.divpost51 .post-item p.theContent {min-height: 124px !important;}
+
+.main-nav .nav-link {
+    font-weight: 700;
+    font-size: 14px !important;
+    margin: 0 15px 0 0;
+    border-bottom: 3px solid #fff;
+}
