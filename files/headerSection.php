@@ -113,7 +113,7 @@ if(isset($_SESSION['userId']) && !empty($_SESSION['userId'])){
                         <a class="nav-link" href="<?=SITEURL;?>search.php">From Template</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?=SITEURL;?>search.php?type=custom">From Scratch</a>
+                        <a class="nav-link" href="<?=SITEURL;?>search.php?type=custom">From Scratch Designs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?=SITEURL;?>psdshop.php">PSD Shop</a>
