@@ -1,6 +1,6 @@
 <?php
 $showOffersPopup = 0;
-
+// setcookie("FlashyOfferPopup", "Yes", time() + 86400, '/');
 if(!isset($_SESSION['userId']) && empty($_SESSION['userId'])){
 	$showOffersPopup = 1;
 }
@@ -120,7 +120,7 @@ if(isset($_SESSION['userId']) && !empty($_SESSION['userId'])){
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?=SITEURL;?>contact">Contact Us</a>
+                        <a class="nav-link" href="<?=SITEURL;?>contact.php">Contact Us</a>
                     </li>
 
 					<?php
